@@ -5,7 +5,12 @@ A Stored Procedure that allows users to query a non-SQL RDBMS via ODBC
 
 # Instructions
 
-## Connect an ODBC DSN to Virtuoso Using
+## Installation
+
+Run the `install.sql` via iSQL or your preferred interface.
+
+## Connecting Virtuoso to an ODBC DSN
+Connect an ODBC DSN to Virtuoso Using
 ```
 vd_remote_data_source('{DSN Name}', null, '{Username}', '{Password}');
 vdd_disconnect_data_source('{DSN Name}');
@@ -16,6 +21,7 @@ vd_remote_data_source('Neo4j Aura', null, 'neo4j', '12345');
 vdd_disconnect_data_source('Neo4j Aura');
 ```
 
+# Querying
 ## Run A Test Query
 Run a Test Query Using
 ```
