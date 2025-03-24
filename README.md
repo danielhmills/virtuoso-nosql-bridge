@@ -1,7 +1,7 @@
 # virtuoso-nosql-bridge
 A Stored Procedure that allows users to query a non-SQL RDBMS via ODBC
 
-**JDBC Drivers can be utilized in combination with OpenLink Software's ODBC-JDBC Bridge [Free Trial](https://shop.openlinksw.com/license_generator/uda-download/#)**
+**JDBC Drivers can be utilized in combination with OpenLink Software's ODBC-JDBC Bridge ([Free Trial](https://shop.openlinksw.com/license_generator/uda-download/#))**
 
 # Instructions
 
