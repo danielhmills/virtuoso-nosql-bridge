@@ -9,7 +9,7 @@ A Stored Procedure that allows users to query a non-SQL RDBMS via ODBC
 
 Run the `install.sql` via iSQL or your preferred interface.
 
-## Connecting Virtuoso to an ODBC DSN
+### Connecting Virtuoso to an ODBC DSN
 Connect an ODBC DSN to Virtuoso Using
 ```
 vd_remote_data_source('{DSN Name}', null, '{Username}', '{Password}');
@@ -21,8 +21,8 @@ vd_remote_data_source('Neo4j Aura', null, 'neo4j', '12345');
 vdd_disconnect_data_source('Neo4j Aura');
 ```
 
-# Querying
-## Run A Test Query
+## Querying
+### Run A Test Query
 Run a Test Query Using
 ```
 nosql_query(dsn, query);
@@ -34,7 +34,7 @@ nosql_query('Neo4j Aura', 'MATCH (p:Person) LIMIT 10;');
 > Note: Make sure to escape single quotes in a query using `\'`.
 
 
-## Querying with Modifiable Result Sets
+### Querying with Modifiable Result Sets
 
 In order to use the result set with a SELECT query, use a derived table:
 
