@@ -5,7 +5,7 @@ A Stored Procedure that allows users to query a non-SQL RDBMS via ODBC
 
 # Instructions
 
-## AConnect an ODBC DSN to Virtuoso Using
+## Connect an ODBC DSN to Virtuoso Using
 ```
 vd_remote_data_source('{DSN Name}', null, '{Username}', '{Password}');
 vdd_disconnect_data_source('{DSN Name}');
